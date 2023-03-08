@@ -21,7 +21,7 @@
     </config-file>
 
     <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-    <source-file src="src/android/com/checkgoogleservices/CheckGoogleServices.java" target-dir="src/cordova-plugin-check-google-services/checkgoogleservices" />
+    <source-file src="src/android/com/checkgoogleservices/CheckGoogleServices.java" target-dir="src/com/CheckGoogleServices" />
 
   </platform>
 </plugin>
