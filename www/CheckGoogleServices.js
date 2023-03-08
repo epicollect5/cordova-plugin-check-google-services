@@ -1,5 +1,5 @@
 var exec = require('cordova/exec');
-var CLASS = 'checkGoogleServices';
+var CLASS = 'CheckGoogleServices';
 
 module.exports = {
     checkGoogleServicesAvailability: function (onSuccess, onError) {
