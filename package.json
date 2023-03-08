@@ -1,19 +1,13 @@
 {
-  "name": "cordova-plugin-check-huawei-services-google-priority",
+  "name": "cordova-plugin-check-google-services",
   "version": "1.0.0",
-  "description": "This plugin based cordova-plugin-check-huawei-services, and add priority check for google services",
+  "description": "This plugin checks for Google Services",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pawfrolow/cordova-plugin-check-huawei-services-google-priority.git"
+    "type": "git"
   },
-  "author": "Paul Frolov",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pawfrolow/cordova-plugin-check-huawei-services-google-priority/issues"
-  },
-  "homepage": "https://github.com/pawfrolow/cordova-plugin-check-huawei-services-google-priority#readme"
+  "license": "MIT"
 }

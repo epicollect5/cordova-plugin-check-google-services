@@ -10,7 +10,7 @@
 
 
   <js-module name="CheckGoogleServices" src="www/CheckGoogleServices.js">
-    <clobbers target="CheckGoogleServices" />
+    <clobbers target="cordova.plugins.CheckGoogleServices" />
   </js-module>
 
   <platform name="android">
@@ -21,7 +21,6 @@
     </config-file>
 
     <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-
     <source-file src="src/android/com/checkgoogleservices/CheckGoogleServices.java" target-dir="src/cordova-plugin-check-google-services/checkgoogleservices" />
 
   </platform>

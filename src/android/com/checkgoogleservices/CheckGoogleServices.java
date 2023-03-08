@@ -33,13 +33,10 @@ public class CheckGoogleServices extends CordovaPlugin {
             else{
                 json.put("status", false);
             }
-
             callbackContext.success(json);
             return;
-
-            
         } catch (Exception error) {
-            callbackContext.error("Error validating huawei services availability");
+            callbackContext.error("Error validating Google services availability");
         }
     }
 }
