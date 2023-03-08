@@ -12,7 +12,7 @@ import com.google.android.gms.common.GoogleApiAvailabilityLight;
 /**
  * This class echoes a string called from JavaScript.
  */
-public class checkGoogleServices extends CordovaPlugin {
+public class CheckGoogleServices extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
